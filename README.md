@@ -1,5 +1,8 @@
 # Phase 3 Project Guidelines
 
+## Frontend Git Repository
+https://github.com/baikjs87/phase-3-project-frontend
+
 ## Learning Goals
 
 - Build a web basic API with Sinatra and Active Record to support a React

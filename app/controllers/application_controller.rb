@@ -4,7 +4,7 @@ class ApplicationController < Sinatra::Base
   # Add your routes here
   get "/locations" do
     locations = Location.all
-    locations.to_json
+    locations.to_json(include: [:things_to_dos, :places_to_gos])
   end
 
   get "/locations/:id" do

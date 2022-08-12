@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 2022_08_11_005701) do
 
   create_table "locations", force: :cascade do |t|
     t.string "city"
+    t.string "url"
   end
 
   create_table "places_reviews", force: :cascade do |t|

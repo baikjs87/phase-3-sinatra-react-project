@@ -3,7 +3,7 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/locations" do
-    locations = Location.all
+    locations = Location.all.order(:city)
     locations.to_json(include: [:things_to_dos, :places_to_gos])
   end
 
@@ -12,13 +12,23 @@ class ApplicationController < Sinatra::Base
     locations.to_json
   end
 
-  get "/locations/:id/places_to_go" do
-    places = Location.find(params[:id]).places_to_gos
+  get "/places_to_go" do
+    places = PlacesToGo.all
     places.to_json
   end
 
-  get "/locations/:id/things_to_do" do
-    things = Location.find(params[:id]).things_to_dos
+  get "/places_to_go/:id" do
+    things = PlacesToGo.find(params[:id])
+    things.to_json
+  end
+
+  get "/things_to_do" do
+    places = ThingsToDo.all
+    places.to_json
+  end
+
+  get "/things_to_do/:id" do
+    things = ThingsToDo.find(params[:id])
     things.to_json
   end
 

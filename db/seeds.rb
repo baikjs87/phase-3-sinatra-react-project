@@ -4,12 +4,12 @@ ThingsToDo.delete_all
 PlacesToGo.delete_all
 Category.delete_all
 
-Location.create(city: "New York")
-Location.create(city: "Washington D.C.")
-Location.create(city: "Seattle")
-Location.create(city: "LA")
-Location.create(city: "Las Vegas")
-Location.create(city: "Orlando")
+Location.create(city: "New York", url:"https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+Location.create(city: "Washington D.C.", url:"https://images.unsplash.com/photo-1617581629397-a72507c3de9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1744&q=80")
+Location.create(city: "Seattle", url:"https://images.unsplash.com/photo-1502175353174-a7a70e73b362?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2252&q=80")
+Location.create(city: "LA", url:"https://images.unsplash.com/photo-1534253893894-10d024888e49?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
+Location.create(city: "Las Vegas", url:"https://images.unsplash.com/photo-1550109161-7262e652bf82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80")
+Location.create(city: "Orlando", url:"https://images.unsplash.com/photo-1618945372420-2470ece5277c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80")
 
 ThingsToDo.create(activity: "Eat New York pizza", location_id: 1, category_id: 4)
 ThingsToDo.create(activity: "Visit MoMA", location_id: 1, category_id: 2)

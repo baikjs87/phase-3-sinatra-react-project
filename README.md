@@ -3,6 +3,14 @@
 ## Frontend Git Repository
 https://github.com/baikjs87/phase-3-project-frontend
 
+## Backend Git Repository
+https://github.com/baikjs87/phase-3-sinatra-react-project
+
+## Start The Backend Server
+ $ bundle exec rake server
+
+====================================================================================================
+
 ## Learning Goals
 
 - Build a web basic API with Sinatra and Active Record to support a React

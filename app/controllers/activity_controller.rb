@@ -12,7 +12,7 @@ class ActivityController < Sinatra::Base
     end
 
     post "/things_to_do" do
-        ngs = ThingsToDo.create(activity: params[:activity], location_id: params[:location_id])
+        things = ThingsToDo.create(activity: params[:activity], location_id: params[:location_id])
         things.to_json
     end
 

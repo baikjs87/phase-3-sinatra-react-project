@@ -18,6 +18,11 @@ A single-page app to list places you want to go and what you want to do or see t
 ## Front End Git Repository
 https://github.com/baikjs87/phase-3-project-frontend
 
+### To Start the Front End
+```bash
+ $ npm start
+```
+
 ## Back End Git Repository
 https://github.com/baikjs87/tripaholic_backend
 

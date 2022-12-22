@@ -1,5 +1,5 @@
 <h1 align="center">tripaholic</h1>
-<h4 align="center">(Back End Repo)</h4>
+<h4 align="center">Back End Repo</h4>
 
 <br/>
 
@@ -15,10 +15,10 @@ A single-page app to list places you want to go and what you want to do or see t
 
 <br/>
 
-## Frontend Git Repository
+## Front End Git Repository
 https://github.com/baikjs87/phase-3-project-frontend
 
-## Backend Git Repository
+## Back End Git Repository
 https://github.com/baikjs87/tripaholic_backend
 
 ### To Start the Back End Server

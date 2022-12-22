@@ -1,5 +1,5 @@
 <h1 align="center">tripaholic</h1>
-<h3 align="center">Back End Repo</h3>
+<h4 align="center">(Back End Repo)</h4>
 
 <br/>
 
@@ -10,7 +10,7 @@ A single-page app to list places you want to go and what you want to do or see t
 <br/>
 
 <p align="center">
-  <img alt="screen shot" src="tripaholic_screen_shot.JPG" width="224px">
+  <img alt="screen shot" src="tripaholic_screen_shot.JPG">
 </p>
 
 <br/>
@@ -21,7 +21,7 @@ https://github.com/baikjs87/phase-3-project-frontend
 ## Backend Git Repository
 https://github.com/baikjs87/tripaholic_backend
 
-### Start The Backend Server
+### To Start the Back End Server
 ```bash
  $ bundle exec rake server
 ```
